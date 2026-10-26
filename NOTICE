@@ -1,0 +1,47 @@
+secrets
+Copyright 2026 Jesper Wisborg Krogh
+
+This product includes software developed by third parties, as listed below.
+Each component remains under its own license; the terms below are reproduced
+in satisfaction of those licenses' attribution requirements.
+
+
+-------------------------------------------------------------------------------
+MIT License components
+-------------------------------------------------------------------------------
+
+  github.com/zalando/go-keyring
+                             Copyright (c) 2016 Zalando SE.  The system's
+                             keychain: the macOS Keychain, the Windows
+                             Credential Manager, a Secret Service on Linux.
+                             It carries shellescape, Copyright (c) 2016
+                             Alessio Treglia, also MIT.
+  github.com/danieljoos/wincred
+                             Copyright (c) 2014 Daniel Joos.  The Windows
+                             Credential Manager, through go-keyring.
+
+
+-------------------------------------------------------------------------------
+MIT and Apache License 2.0
+-------------------------------------------------------------------------------
+
+  go.yaml.in/yaml/v3         Copyright (c) 2011-2019 Canonical Ltd;
+                             Copyright (c) 2006-2010 Kirill Simonov.
+                             DUAL-LICENSED, MIT and Apache 2.0, and it must be
+                             described as both rather than as either: the eight
+                             files ported from libyaml (apic.go, emitterc.go,
+                             parserc.go, readerc.go, scannerc.go, writerc.go,
+                             yamlh.go, yamlprivateh.go) are MIT and the rest is
+                             Apache 2.0.  Reads the YAML and JSON files a user
+                             keeps secrets in.
+
+
+-------------------------------------------------------------------------------
+BSD components
+-------------------------------------------------------------------------------
+
+  github.com/godbus/dbus/v5  Copyright (c) 2013, Georg Reinke, Google.
+                             BSD 2-Clause.  D-Bus, which a Secret Service is
+                             reached over on Linux, through go-keyring.
+  golang.org/x/sys           Copyright 2009 The Go Authors.  BSD 3-Clause.
+                             System calls, through wincred and dbus.
